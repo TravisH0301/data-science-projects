@@ -5,11 +5,6 @@ Prior to modelling the datasets are firstly pre-processed and features are gener
 
 And these optimised models are then used to make classification on the 500 test Twitter posts.
 
-## Most Common Words from Males & Females 
-<p align="center"
-<img src="" with="500"
-</p>
-
 ## Most Common Words from Males
 <p align="center"
 <img src="" with="500"
@@ -27,5 +22,5 @@ And these optimised models are then used to make classification on the 500 test 
 
 ## Final Classification on Test Dataset
 ||Logistic Regression|Linear SVC|XGBoost|
-|-|-|-|-|-|-|
+|-|-|-|-|
 |Optimised Accuracy|81.6%|81.4%|74%|
