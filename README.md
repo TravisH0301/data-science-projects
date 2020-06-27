@@ -3,7 +3,7 @@ Repository containing data science projects completed for academic, self-learnin
 
 ## Contents
 - ### Data Analysis and Visualisation
-  - [SEEK Data Science Exploratory Data Analysis](https://github.com/TravisH0301/data_science_projects/tree/master/seek_ds_eda): Exploratory data analysis on the data science related roles on SEEK Australia to gain insights about opportunities in data science field. 
+  - [SEEK Data Science Exploratory Data Analysis](https://github.com/TravisH0301/data_science_projects/tree/master/seek_ds_eda): Exploratory data analysis on the advertised data science related roles on SEEK Australia.
   
   - [Commuting Distance to Work in Greater Melbourne](https://github.com/TravisH0301/data_science_projects/tree/master/commuting_distance_visualisation): Exploratory data analysis and interative visualisation on the commuting behaviours of Australians living in Greater Melbourne. 
   
