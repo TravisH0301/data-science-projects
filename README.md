@@ -5,7 +5,9 @@ Repository containing data science projects completed for academic, self-learnin
 - ### Data Analysis and Visualisation
   - [SEEK Data Science Exploratory Data Analysis](https://github.com/TravisH0301/data_science_projects/tree/master/seek_ds_eda): Exploratory data analysis on the data science related roles on SEEK Australia to gain insights about opportunities in data science field. 
   
-  _Tools: Pandas, Seaborn_
+  - [Commuting Distance to Work in Greater Melbourne](https://github.com/TravisH0301/data_science_projects/tree/master/commuting_distance_visualisation): Exploratory data analysis and interative visualisation on the commuting behaviours of Australians living in Greater Melbourne. 
+  
+  _Tools: Pandas, Seaborn, GGplot2, Shiny_
   
 - ### Machine Learning
   - [name](link): explanation
