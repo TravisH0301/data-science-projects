@@ -5,6 +5,8 @@ Prior to modelling the datasets are firstly pre-processed and features are gener
 
 And these optimised models are then used to make classification on the 500 test Twitter posts.
 
+_This project is collaborated with @JeheeHan._
+
 ## Most Common Words from Males
 <p align="center">
 <img src="https://github.com/TravisH0301/data_science_projects/blob/master/twitter_gender_classification/images/common2.png" with="500">
