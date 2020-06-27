@@ -63,7 +63,7 @@ The datasets are pre-processed using Python prior to the visualisation on Tablea
 
 #### Commuting Distance by Living Arrangements
 <p align="center">
-<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_living_arrangment.png" width="600">
+<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_living_arrangement.png" width="600">
 </p>  
   
 #### Correlation with Living Arrangements
