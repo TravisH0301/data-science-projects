@@ -39,7 +39,7 @@ The datasets are pre-processed using Python prior to the visualisation on Tablea
 
 #### Commuting Distance by Method of Travel
 <p align="center">
-<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_method_of_travel.png" width="800">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/commuting_distance_visualisation/images/by_method_of_travel.png" width="800">
 </p>
 
 #### Commuting Proportion by Walking
