@@ -19,11 +19,10 @@ Repository containing data science projects completed for academic, self-learnin
   
   _Tools: Open CV, Keras_
 
-
 - ### Natural Language Processing
-  - [name](link): explanation
+  - [Twitter Gender Classification](https://github.com/TravisH0301/data_science_projects/tree/master/twitter_gender_classification): Authorship profiling on Twitter posts to classify author's gender using statistical models. 
   
-  _Tools: _
+  _Tools: NLTK, Sklearn, XGBoost_
 	
 - ### Other Projects: 
   - [name](link): explanation
