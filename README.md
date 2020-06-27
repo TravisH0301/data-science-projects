@@ -2,7 +2,11 @@
 Repository containing data science projects completed for academic, self-learning and hobby purposes. 
 
 ## Contents
-
+- ### Data Analysis and Visualisation
+  - [SEEK Data Science Exploratory Data Analysis](https://github.com/TravisH0301/data_science_projects/tree/master/seek_ds_eda): Exploratory data analysis on the data science related roles on SEEK Australia to gain insights about opportunities in data science field. 
+  
+  _Tools: Pandas, Seaborn_
+  
 - ### Machine Learning
   - [name](link): explanation
 
@@ -20,11 +24,6 @@ Repository containing data science projects completed for academic, self-learnin
   - [name](link): explanation
   
   _Tools: _
-
-- ### Data Analysis and Visualisation
-  - [SEEK Data Science Exploratory Data Analysis](https://github.com/TravisH0301/data_science_projects/tree/master/seek_ds_eda): Exploratory data analysis on the data science related roles on SEEK Australia to gain insights about opportunities in data science field. 
-  
-  _Tools: Pandas, Seaborn_
 	
 - ### Other Projects: 
   - [name](link): explanation
