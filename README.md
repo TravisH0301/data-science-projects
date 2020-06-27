@@ -7,7 +7,7 @@ Repository containing data science projects completed for academic, self-learnin
   
   - [Commuting Distance to Work in Greater Melbourne](https://github.com/TravisH0301/data_science_projects/tree/master/commuting_distance_visualisation): Exploratory data analysis and interative visualisation on the commuting behaviours of Australians living in Greater Melbourne. 
   
-  _Tools: Pandas, Seaborn, GGplot2, Shiny_
+  _Tools: Seaborn, GGplot2, Shiny, Tableau_
   
 - ### Machine Learning
   - [name](link): explanation
