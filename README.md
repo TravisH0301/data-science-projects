@@ -22,9 +22,9 @@ Repository containing data science projects completed for academic, self-learnin
   _Tools: _
 
 - ### Data Analysis and Visualisation
-  - [name](link): explanation
+  - [SEEK Data Science Exploratory Data Analysis](https://github.com/TravisH0301/data_science_projects/tree/master/seek_ds_eda): Exploratory data analysis on the data science related roles on SEEK Australia to gain insights about opportunities in data science field. 
   
-  _Tools: _
+  _Tools: Pandas, Seaborn_
 	
 - ### Other Projects: 
   - [name](link): explanation
