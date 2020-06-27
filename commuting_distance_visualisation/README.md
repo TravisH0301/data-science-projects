@@ -18,34 +18,65 @@ This projects uses the following datasets published in 2016.
 -	‘Victoria Mesh Blocks ASGS Ed 2016 Digital Boundaries’ from Australian Bureau of Statistics – Australian Statistical Geography Standard (ASGS)
 
 ### Pre-processing & Visualisation
-The datasets are pre-processed using Python prior to the visualisation on Tableau. 
+The datasets are pre-processed using Python prior to the visualisation on Tableau and R Shiny. 
 
 ### Visualisations 
 #### Commuting Distance by Industry
-![](https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_industry.png)
+<p align="center">
+<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_industry.png" width="800">
+</p>
+
 #### Commuting Distance by Occupation
-![](https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_occupation.png)
+<p align="center">
+<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_occupation.png" width="800">
+</p>
+
 #### Commuting Distance by Annual Income
-![](https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_annual_income.png)
+<p align="center">
+<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_annual_income.png" width="800">
+</p>
+
 #### Commuting Distance by Method of Travel
-![](https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_method_of_travel.png)
+<p align="center">
+<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_method_of_travel.png" width="800">
+</p>
+
 #### Commuting Proportion by Walking
-![](https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_walking.png)
+<p align="center">
+<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_walking.png" width="600">
+</p>
+
 #### Commuting Proportion by Bicycle
-![](https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_bicycle.png)
+<p align="center">
+<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_bicycle.png" width="600">
+</p>
+
 #### Commuting Proportion by Public Transport
-![](https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_public_transport.png)
+<p align="center">
+<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_public_transport.png" width="600">
+</p>
+
 #### Commuting Proportion by Car
-![](https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_car.png)
+<p align="center">
+<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_car.png" width="600">
+</p>
+
 #### Commuting Distance by Living Arrangements
-![](https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_living_arrangement.png)
+<p align="center">
+<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/by_living_arrangment.png" width="600">
+</p>  
+  
 #### Correlation with Living Arrangements
-![](https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/correlations_of_living_arrangement.png)
+<p align="center">
+<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/correlations_of_living_arrangement.png" width="600">
+</p>
 
 ### Interactive Visualisation
 An interactive visualisation is built using R shiny and ggplot2.<br>
 Narration is also added to provide information to the viewers.
-![](https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/Interactive%20Visualisation.gif)
+<p align="center">
+<img src="https://github.com/TravisH0301/communting_distance_visualisation/blob/master/images/Interactive%20Visualisation.gif" width="800">
+</p>
 
 ### Discussion
 Please refer to the PDF file, `commuting_distance_visualisation.pdf` for detail analysis and discussion. 
