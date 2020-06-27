@@ -1,4 +1,4 @@
-# Data Science 
+# Data Science Projects
 Repository containing data science projects completed for academic, self-learning and hobby purposes. 
 
 ## Contents
