@@ -2,13 +2,6 @@
 Repository containing data science projects completed for academic, self-learning and hobby purposes. 
 
 ## Contents
-- ### Data Analysis and Visualisation
-  - [Commuting Distance to Work in Greater Melbourne](https://github.com/TravisH0301/data_science_projects/tree/master/commuting_distance_visualisation): Exploratory data analysis and interative visualisation on the commuting behaviours of Australians living in Greater Melbourne. 
-  
-  - [SEEK Data Science Exploratory Data Analysis](https://github.com/TravisH0301/data_science_projects/tree/master/seek_ds_eda): Exploratory data analysis on the advertised data science related roles on SEEK Australia.
-  
-  _Tools: Seaborn, GGplot2, Shiny, Tableau_
-  
 - ### Machine Learning
   - [name](link): explanation
 
@@ -23,6 +16,13 @@ Repository containing data science projects completed for academic, self-learnin
   - [Twitter Gender Classification](https://github.com/TravisH0301/data_science_projects/tree/master/twitter_gender_classification): Authorship profiling on Twitter posts to classify author's gender using statistical models. 
   
   _Tools: NLTK, Sklearn, XGBoost_
+  
+- ### Data Analysis and Visualisation
+  - [Commuting Distance to Work in Greater Melbourne](https://github.com/TravisH0301/data_science_projects/tree/master/commuting_distance_visualisation): Exploratory data analysis and interative visualisation on the commuting behaviours of Australians living in Greater Melbourne. 
+  
+  - [SEEK Data Science Exploratory Data Analysis](https://github.com/TravisH0301/data_science_projects/tree/master/seek_ds_eda): Exploratory data analysis on the advertised data science related roles on SEEK Australia.
+  
+  _Tools: Seaborn, GGplot2, Shiny, Tableau_
 	
 - ### Other Projects: 
   - [name](link): explanation
