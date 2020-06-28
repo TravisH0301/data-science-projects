@@ -32,7 +32,7 @@ images. However, the average validation accuracy for the segmented images is hig
 ### Comparison between deep and simple CNN models
 The 3-layer CNN model on both types of images has reached overfitting during training. However, the VGG-16 model did not reach 
 overfitting during training. This is likely due to gradient vanishing caused by its deeper architecture. Certainly 20 epochs are
-not enough for the gradients to impact the first convolutions of the model. Hence, retraining of the VGG-16 model with increased epochs with the raw images are decided to enhance its learning.  
+not enough for the gradients to impact the first convolutions of the model. Hence, retraining of the VGG-16 model with increased epochs with the raw images is decided to enhance its learning.  
 
 ### VGG-16 with increased epochs
 TBC
