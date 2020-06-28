@@ -26,11 +26,17 @@ Lung CT scane images are segmented using k-means clustering. K value of 2 is use
 </p>
 
 ### Effect of image segmentation
-By looking at the performance of the VGG-16 model on both segmented images and raw images, the image segmentation allows smoother learning for models compared to the raw images. This is because image segmentation removes noises in images and helps the model to learn better with less noises. However, this can oversimplify the images resulting in loss of features.
+By looking at the performance of the VGG-16 model on both segmented images and raw images, the image segmentation allows smoother 
+learning for models compared to the raw images. This is because image segmentation removes noises in images and helps the model
+to learn better with less noises. However, this can oversimplify the images resulting in loss of features and inability of the 
+model to correctly learn the images. 
 
 ### Comparison between deep and simple CNN models
-The VGG-16 models shows stagnant training and testing accuracies between 0.52 and 0.55. In comparison, the 3-layer CNN model achieves higher accuracies. The 3-layer CNN model learns better yet it overfits after 2 epochs. This difference may be due to gradient vanishing in VGG-16 model arising from its deep architecture. This can be improved by simplifying the model structure or altering activation function and optimisation (gradient descent) process.
+The VGG-16 models shows stagnant training with testing accuracies around 0.5. In comparison, the 3-layer CNN model
+achieves higher accuracies. The 3-layer CNN model learns better yet it overfits after 2 epochs. This difference may be due to 
+gradient vanishing in VGG-16 model arising from its deep architecture. This can be improved by simplifying the model structure 
+or altering activation function and optimisation (gradient descent) process. 
 
-The deep structure of the VGG-16 model learns much more detailed features of the images than the simple 3-layer CNN model. And the fact that VGG-16 model cannot distinguish between COVID positive and negative scan images may imply that there are not distinct differences between positive and negative images. And it may be that simple features such as edges and lines work better than the detailed features in this case.
-
-A use of pre-trained model could be tried in the future to examine if the feature maps learned from large datasets of other images could benefit the model to classify the CT scan images.
+On the other hand, due to VGG-16's deep architecture, 20 epochs may not be enough for gradients to impact on the first 
+convolutions. Hence, VGG-16 model is trained again for larger epochs to reach overfitting to ensure model learns the datasets
+adequately. 
