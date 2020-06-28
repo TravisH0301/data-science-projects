@@ -38,7 +38,7 @@ gradient vanishing in VGG-16 model arising from its deep architecture. This can 
 or altering activation function and optimisation (gradient descent) process. 
 
 On the other hand, due to VGG-16's deep architecture, 20 epochs may not be enough for gradients to impact on the first 
-convolutions. Hence, VGG-16 model is trained again for larger epochs to reach overfitting to ensure model learns the datasets
+convolutions. Hence, VGG-16 model is trained again for larger epochs to reach overfitting ensuring model learns the datasets
 adequately. 
 
 ### VGG-16 with increased epochs
