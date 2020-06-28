@@ -22,24 +22,17 @@ Lung CT scane images are segmented using k-means clustering. K value of 2 is use
 ## Classification 
 
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/covid-19_lung_ct_image_segmentation_%26_classification/images/vgg vs simple.png" width="600">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/covid-19_lung_ct_image_segmentation_%26_classification/images/vgg_vs_cnn1.png" width="600">
 </p>
 
 ### Effect of image segmentation
-By looking at the performance of the VGG-16 model on both segmented images and raw images, the image segmentation allows smoother 
-learning for models compared to the raw images. This is because image segmentation removes noises in images and helps the model
-to learn better with less noises. However, this can oversimplify the images resulting in loss of features and inability of the 
-model to correctly learn the images. 
+By looking at the performances of the two models on both segmented images and raw images, the image segmentation allows smoother learning for both models reducing variance. And for the 3-layer CNN model, it has reached overfitting quicker with the segmented
+images. However, the average validation accuracy for the segmented images is higher than the raw images. This is due to the reduction in image features during image segmentation. Additionally, a stright horizontal line for the validation accuracy of the VGG-16 model on the segmented images indicates that the model predicts the same classes for all iterations. This may be due to a lack of training or incorrect settings for weight initialisation or optimisation. 
 
 ### Comparison between deep and simple CNN models
-The VGG-16 models shows stagnant training with testing accuracies around 0.5. In comparison, the 3-layer CNN model
-achieves higher accuracies. The 3-layer CNN model learns better yet it overfits after 2 epochs. This difference may be due to 
-gradient vanishing in VGG-16 model arising from its deep architecture. This can be improved by simplifying the model structure 
-or altering activation function and optimisation (gradient descent) process. 
-
-On the other hand, due to VGG-16's deep architecture, 20 epochs may not be enough for gradients to impact on the first 
-convolutions. Hence, VGG-16 model is trained again for larger epochs to reach overfitting ensuring model learns the datasets
-adequately. 
+The 3-layer CNN model on both types of images has reached overfitting during training. However, the VGG-16 model did not reach 
+overfitting during training. This is likely due to gradient vanishing caused by its deeper architecture. Certainly 20 epochs are
+not enough for the gradients to impact the first convolutions of the model. Hence, retraining of the VGG-16 model with increased epochs with the raw images are decided to enhance its learning.  
 
 ### VGG-16 with increased epochs
 TBC
