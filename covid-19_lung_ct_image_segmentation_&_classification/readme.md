@@ -1,9 +1,7 @@
 # COVID-19 Lung CT Image Segmentation & Classification
 This notebook aims to build image classifiers to determine whether a paitient is tested positive or negative for COVID-19 based on lung CT scan images. In doing so, a VGG-16 model and a 3-layer CNN model are used for classification.
 
-Prior to the classification, the images are firstly segmented using K-means Clustering to enhance classification performance. Then, VGG-16 model is implemented and is trained on the raw and segmented images. Additionally, a 3-layer CNN model is trained on the segmented images.
-
-The effect of image segmentation on image classification is discussed based on the performance of the VGG-16 model on both raw and segmented images. And the performances of the VGG-16 model and the 3-layer CNN model are compared and discusses.
+Prior to the classification, the images are firstly segmented using K-means Clustering to enhance classification performance. Then, the VGG-16 model and the 3-layer CNN model are implemented on the raw and segmented images. The effect of the image segmentation is discusses and two models are compared. To improve the performance of the VGG-16 model, various tuning methods including increasing epochs, changing optimiser and reducing learning rate are performed and evaluated. In addition, pre-trained weights of the VGG-16 model are implemented to enhance the model. 
 
 The dataset is sourced from 'COVID-19 Lung CT Scans' in Kaggle.
 https://www.kaggle.com/luisblanche/covidct
