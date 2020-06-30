@@ -3,7 +3,7 @@ Repository containing data science projects completed for academic, self-learnin
 
 ## Contents
 - ### Machine Learning
-  - [name](link): explanation
+  - [Bushfire Analysis using Meteorological Data](https://github.com/TravisH0301/data_science_projects/tree/master/bushfire_analysis_meteorological): Regression analysis on bushfire to predict burned area using meteorological data.
 
   _Tools: _ 
 
