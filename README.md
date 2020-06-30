@@ -23,7 +23,3 @@ Repository containing data science projects completed for academic, self-learnin
   - [SEEK Data Science Exploratory Data Analysis](https://github.com/TravisH0301/data_science_projects/tree/master/seek_ds_eda): Exploratory data analysis on the advertised data science related roles on SEEK Australia.
   
   _Tools: Seaborn, GGplot2, Shiny, Tableau_
-	
-- ### Other Projects: 
-  - [name](link): explanation
-
