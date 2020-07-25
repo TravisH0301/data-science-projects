@@ -14,7 +14,7 @@ The models will be trained and tested using the data collected from the northeas
 information related to fire occurrences, such as spatial location, date, the forest Fire Weather Index (FWI), weather
 and the total burned area (Cortez & Morais, 2007).
 
-
+<!--
 ## Data Exploration
 ### Qualitative Data
 
@@ -33,3 +33,4 @@ and the total burned area (Cortez & Morais, 2007).
 ### Ridge Regression
 
 ## Evaluations
+-->
