@@ -7,10 +7,10 @@ environmental and ecological impacts as well as the Australian economy.
 
 To prevent or mitigate such disasters, fast detection is important. This project aims to approach this problem by 
 building regression models to predict the burned area using meteorological data. In building regression models, 
-different models are to be compared and the best model will be selected. Additionally, a subset of attributes that 
-have a strong correlation to the burned area is to be identified as well.
+different models are compared and the best model is selected. Additionally, a subset of attributes that 
+have a strong correlation to the burned area is identified as well.
 
-The models will be trained and tested using the data collected from the northeast region of Portugal that includes 
+The models are trained and tested using the data collected from the northeast region of Portugal that includes 
 information related to fire occurrences, such as spatial location, date, the forest Fire Weather Index (FWI), weather
 and the total burned area (Cortez & Morais, 2007).
 
