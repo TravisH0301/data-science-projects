@@ -14,23 +14,31 @@ The models are trained and tested using the data collected from the northeast re
 information related to fire occurrences, such as spatial location, date, the forest Fire Weather Index (FWI), weather
 and the total burned area (Cortez & Morais, 2007).
 
-<!--
-## Data Exploration
-### Qualitative Data
+## Preprocessing
+Prior to modelling, the dataset is inspected and preprocessed. Upon inspection, the dataset contains both qualitative and quantitative variables. 
+For the quantitative variables, the variables are transformed and standardised to improve modelling performance and qualitative variables are
+dummy coded to produce n-1 number of binary variables. Then, 80:20 ratio is used to split the dataset into training and testing datasets.
 
-#### Data Transformation
+## Feature Selection
+In this project, three regression models; Stepwise Regression, Lasso Regression (L1 Regularisation) and Ridge Regression (L2 Regularisation) 
+models are used to perform feature selection based on statistical significance.
 
-#### Correlations 
-
-### Quantitative Data
-#### Correlations
-
-## Regression
+## Modelling
 ### Stepwise Regression
+The feature set is selected based on statistical performance of the regression such as Cp, BIC, adjusted R2 and RSS. 
+
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_stepwise1.png" width="500">
+
+Based on the evaluation, 6 features are chosen. And the residuals of the regression is tested to ensure they behave like a normal distribution.
+
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_stepwise2.png" width="500">
 
 ### Lasso Regression
+To determine the regularisation parameter, lambda, mean-squared error is plotted against lambda.
+
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_lasso1.png" width="500">
 
 ### Ridge Regression
 
-## Evaluations
--->
+## Comparison
+
