@@ -38,16 +38,16 @@ To determine the regularisation parameter, lambda, mean-squared error is plotted
 
 <img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_lasso1.png" width="500">
 
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_lasso1.png" width="500">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_lasso2.png" width="500">
 
 Based on regularisation, 24 out of 27 features are shruken to zero. 
 
 ### Ridge Regression
 Similar regularisation approach was taken for the Ridge regression by determining the most efficient lambda.
 
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_lasso1.png" width="500">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_ridge1.png" width="500">
 
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_lasso1.png" width="500">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_ridge2.png" width="500">
 
 Unlike the Lasso regularisation, all features are kept yet the coefficients of the insignificant features are penalised.
 
