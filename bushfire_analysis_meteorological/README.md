@@ -38,7 +38,22 @@ To determine the regularisation parameter, lambda, mean-squared error is plotted
 
 <img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_lasso1.png" width="500">
 
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_lasso1.png" width="500">
+
+Based on regularisation, 24 out of 27 features are shruken to zero. 
+
 ### Ridge Regression
+Similar regularisation approach was taken for the Ridge regression by determining the most efficient lambda.
+
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_lasso1.png" width="500">
+
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_lasso1.png" width="500">
+
+Unlike the Lasso regularisation, all features are kept yet the coefficients of the insignificant features are penalised.
 
 ## Comparison
+In comparison of the regression performance, the Lasso regression resulted in the lowest root squared mean error (RSME) and the selected features are 
+Duff Moisture Code (DMC), Month December, Month March and Month September. 
 
+These features also showed high correlations to the burned area both individually and as a group. This implies the importance of seasonal weather factor 
+in predicting the bush fire in Portugal where the dataset is originated from.
