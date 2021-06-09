@@ -1,5 +1,5 @@
 # Data Science Projects
-Repository containing data science projects completed for academic, self-learning and hobby purposes. 
+Repository containing data science projects completed for academic and self-learning purposes. 
 
 ## Contents
 - ### Machine Learning
