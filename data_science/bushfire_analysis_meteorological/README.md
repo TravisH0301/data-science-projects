@@ -27,27 +27,27 @@ models are used to perform feature selection based on statistical significance.
 ### Stepwise Regression
 The feature set is selected based on statistical performance of the regression such as Cp, BIC, adjusted R2 and RSS. 
 
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_stepwise1.png" width="500">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/bushfire_analysis_meteorological/images/bushfire_stepwise1.png" width="500">
 
 Based on the evaluation, 6 features are chosen. And the residuals of the regression is tested to ensure they behave like a normal distribution.
 
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_stepwise2.png" width="500">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/bushfire_analysis_meteorological/images/bushfire_stepwise2.png" width="500">
 
 ### Lasso Regression
 To determine the regularisation parameter, lambda, mean-squared error is plotted against lambda.
 
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_lasso1.png" width="500">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/bushfire_analysis_meteorological/images/bushfire_lasso1.png" width="500">
 
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_lasso2.png" width="500">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/bushfire_analysis_meteorological/images/bushfire_lasso2.png" width="500">
 
 Based on regularisation, 24 out of 27 features are shruken to zero. 
 
 ### Ridge Regression
 Similar regularisation approach was taken for the Ridge regression by determining the most efficient lambda.
 
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_ridge1.png" width="500">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/bushfire_analysis_meteorological/images/bushfire_ridge1.png" width="500">
 
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/bushfire_analysis_meteorological/images/bushfire_ridge2.png" width="500">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/bushfire_analysis_meteorological/images/bushfire_ridge2.png" width="500">
 
 Unlike the Lasso regularisation, all features are kept yet the coefficients of the insignificant features are penalised.
 
