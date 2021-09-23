@@ -10,17 +10,17 @@ https://www.kaggle.com/luisblanche/covidct
 Lung CT scane images are segmented using k-means clustering. K value of 2 is used to make boundary of the lung more distinct in black and white colors. 
 
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/covid-19_lung_ct_image_segmentation_%26_classification/images/seg1.png" width="400">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/covid-19_lung_ct_image_segmentation_%26_classification/images/seg1.png" width="400">
 </p>
 
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/covid-19_lung_ct_image_segmentation_%26_classification/images/seg2.png" width="400">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/covid-19_lung_ct_image_segmentation_%26_classification/images/seg2.png" width="400">
 </p>
 
 ## Classification using VGG-16 & 3-layer CNN
 
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/covid-19_lung_ct_image_segmentation_%26_classification/images/vgg_vs_cnn1.png" width="600">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/covid-19_lung_ct_image_segmentation_%26_classification/images/vgg_vs_cnn1.png" width="600">
 </p>
 
 ### Effect of image segmentation
@@ -38,7 +38,7 @@ Hence, additional epochs and different hyper-parameters are given to the VGG-16 
 ### VGG-16 tuning
 
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/covid-19_lung_ct_image_segmentation_%26_classification/images/vgg1.png" width="600">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/covid-19_lung_ct_image_segmentation_%26_classification/images/vgg1.png" width="600">
 </p>
 
 VGG-16 model is tuned by increasing epochs, chaning optimiser and reducing learning rate. Purely increasing epochs to 200 did not show any effect on the model's learning. The oscillation in both loss and accuracy indicates that the model still cannot learn the image feauters. Thus, different approaches are used. Chaning the optimiser from ADAM to SDG and reducing the learning rate showed enhancement in the model's learning implied by the continuously decreasing training and testing loss. However, the reduction rate is marginal so that the accuracy is still fluctuating. Considering the size of the available dataset with about 600 images, training a deep architectural neural network such as VGG-16 may be limited. Thus, pre-trained VGG-16 model is loaded to benefit from the pre-trained weights and to examine its ability in learning the image features.
@@ -46,7 +46,7 @@ VGG-16 model is tuned by increasing epochs, chaning optimiser and reducing learn
 ### Pre-trained VGG-16
 
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/covid-19_lung_ct_image_segmentation_%26_classification/images/vgg2.png" width="600">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/covid-19_lung_ct_image_segmentation_%26_classification/images/vgg2.png" width="600">
 </p>
 
 Implementing the pre-trained VGG-16 model significantly improved the learning ability of the model. It reaches overfitting at around 25 epochs and its accuracy ranges between 0.7 to 0.8. This is because the pre-trained model has weights that are already trained on large set of images. Only the last two convolutional layers of the model are trained in order to learn the features of the lung CT scan images. By using the pre-trained weights, the model overcame the limitation of its deep architecture and the small datasets. 
