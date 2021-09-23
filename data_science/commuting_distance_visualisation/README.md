@@ -24,59 +24,59 @@ The datasets are pre-processed using Python prior to the visualisation on Tablea
 #### Commuting Distance by Industry
 <p align="center">
   
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/commuting_distance_visualisation/images/by_industry.png" width="800">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/commuting_distance_visualisation/images/by_industry.png" width="800">
 </p>
 
 #### Commuting Distance by Occupation
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/commuting_distance_visualisation/images/by_occupation.png" width="800">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/commuting_distance_visualisation/images/by_occupation.png" width="800">
 </p>
 
 #### Commuting Distance by Annual Income
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/commuting_distance_visualisation/images/by_annual_income.png" width="800">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/commuting_distance_visualisation/images/by_annual_income.png" width="800">
 </p>
 
 #### Commuting Distance by Method of Travel
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/commuting_distance_visualisation/images/by_method_of_travel.png" width="800">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/commuting_distance_visualisation/images/by_method_of_travel.png" width="800">
 </p>
 
 #### Commuting Proportion by Walking
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/commuting_distance_visualisation/images/by_walking.png" width="600">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/commuting_distance_visualisation/images/by_walking.png" width="600">
 </p>
 
 #### Commuting Proportion by Bicycle
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/commuting_distance_visualisation/images/by_bicycle.png" width="600">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/commuting_distance_visualisation/images/by_bicycle.png" width="600">
 </p>
 
 #### Commuting Proportion by Public Transport
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/commuting_distance_visualisation/images/by_public_transport.png" width="600">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/commuting_distance_visualisation/images/by_public_transport.png" width="600">
 </p>
 
 #### Commuting Proportion by Car
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/commuting_distance_visualisation/images/by_car.png" width="600">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/commuting_distance_visualisation/images/by_car.png" width="600">
 </p>
 
 #### Commuting Distance by Living Arrangements
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/commuting_distance_visualisation/images/by_living_arrangement.png" width="600">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/commuting_distance_visualisation/images/by_living_arrangement.png" width="600">
 </p>  
   
 #### Correlation with Living Arrangements
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/commuting_distance_visualisation/images/correlations_of_living_arrangement.png" width="600">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/commuting_distance_visualisation/images/correlations_of_living_arrangement.png" width="600">
 </p>
 
 ### Interactive Visualisation
 An interactive visualisation is built using R shiny and ggplot2.<br>
 Narration is also added to provide information to the viewers.
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/commuting_distance_visualisation/images/Interactive%20Visualisation.gif" width="800">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/commuting_distance_visualisation/images/Interactive%20Visualisation.gif" width="800">
 </p>
 
 ### Discussion
