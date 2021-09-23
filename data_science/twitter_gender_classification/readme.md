@@ -9,12 +9,12 @@ _This project is collaborated with @JeheeHan._
 
 ## Most Common Words from Males
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/twitter_gender_classification/images/common2.png" with="500">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/twitter_gender_classification/images/common2.png" with="500">
 </p>
 
 ## Most Common Words from Females
 <p align="center">
-<img src="https://github.com/TravisH0301/data_science_projects/blob/master/twitter_gender_classification/images/common3.png" with="500">
+<img src="https://github.com/TravisH0301/data_science_projects/blob/master/data_science/twitter_gender_classification/images/common3.png" with="500">
 </p>
 
 ## Model Comparison via Cross Validation
