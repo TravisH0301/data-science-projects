@@ -1,6 +1,10 @@
 # Data Projects
 Repository containing data projects completed for academic and self-learning purposes. 
 
+## Contents
+- [Data Engineering](#Data-Engeering)
+- [Data Science](#Data-Science)
+
 ## Data Engineering
 To be updated.
 
