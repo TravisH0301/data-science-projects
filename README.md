@@ -6,7 +6,9 @@ Repository containing data projects completed for academic and self-learning pur
 - [Data Science](#Data-Science)
 
 ## Data Engineering
-To be updated.
+### Data Warehouse ETL
+- [Sparkify Data Warehouse ETL](https://github.com/TravisH0301/data_projects/tree/master/data_engineering/sparkify_dw_etl): ETL process to build a data warehouse for a music streaming service.<br>
+_Python: Psycopg2, Pandas, Glob, Os
 
 ## Data Science
 ### Machine Learning
