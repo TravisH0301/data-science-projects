@@ -8,7 +8,7 @@ The data warehouse is designed for analytics purpose with focus on query perform
 
 ## Database Design 
 This database consists of 5 tables in a star schema with 1 fact table and 4 dimension tables.
-![DB ER Diagram]('er_diagram.png')<br>
+![DB ER Diagram](er_diagram.png)<br>
 - songplays: fact table containing information about users and songs the users listened to
 - users: dimension table containing user information
 - songs: dimension table containing song information
