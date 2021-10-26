@@ -2,7 +2,7 @@
 
 ## Purpose 
 This project aims to create a data warehouse using ETL pipeline with the collection of song and user information from Sparkify*.<br>
-The data warehouse is designed for analytics purpose with focus on query performance.
+The data warehouse is designed for analytics purpose with the focus on query performance.
 
 *Sparkify is a fake music streaming service invented by Udacity.
 
