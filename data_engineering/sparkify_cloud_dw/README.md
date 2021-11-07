@@ -53,7 +53,7 @@ to be used by analysts.
 
 
 ## Repository
-There are 5 files including this README text file in the repository.
+The repository contains the following tables.
 - README.md: Text file with project explanation
 - sql_queries.py: Python script containing all SQL queries for the ETL process
 - create_tables.py: Python script to drop & create DB tables
