@@ -11,7 +11,7 @@ Repository containing data projects completed for academic and self-learning pur
 _Python: Psycopg2, Pandas, Glob, Os | PostgreSQL_
 
 - [Sparkify Cloud Data Warehouse ETL](https://github.com/TravisH0301/data_projects/tree/master/data_engineering/sparkify_cloud_dw): ETL process to build a cloud data warehouse on AWS Redshift using the music streaming service data pipelined from AWS S3.<br>
-_Python: Psycopg2 | AWS S3 & Redshift_
+_Python: Psycopg2 | AWS S3, AWS Redshift_
 
 ## Data Science
 ### Machine Learning
