@@ -45,6 +45,8 @@ The fact table contains the user and song information for song play events
 ## ETL Process
 ETL pipeline is constructed to successfully transform and load the Sparkify's data into the cloud data warehouse. 
 
+![ETL_Diagram](etl_diagram.png)
+
 ### Data Source
 The data pipeline extracts the data from S3, where the data is stored as json file formats. <br>
 The data is stored into multiple files in order to speed up the data extraction process. 
