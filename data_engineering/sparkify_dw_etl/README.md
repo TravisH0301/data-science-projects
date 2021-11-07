@@ -18,16 +18,19 @@ This database consists of 5 tables in a star schema with 1 fact table and 4 dime
 The star schema is used to improve query performance for the analytics by denormalising the database.
 
 ## ETL Process
-The ETL pipeline relies on the local json files of the song data and user log data. 
-It extracts and processes the data from these files, and update them into the relevant tables. 
+![ETL_Diagram](etl_diagram.png)
+
+The ETL pipeline extracts the song and user log data from the local flat files in json format. <br>
+The data is loaded and processed on Python. Then the processed data is loaded on the PostgreSQL database tables. 
 
 ## Repository
-There are 5 files including this README text file in the repository.
+There are 6 files including this README text file in the repository.
 - README.md: readme text file with project explanation
-- er_diagram.png: image of DB ER digram
 - sql_queries.py: Python script containing all SQL queries for the ETL process
 - create_tables.py: Python script to drop & create DB tables
 - etl.py: Python script to process song files & log files to update DB
+- er_diagram.png: ER diagram of the data warehouse
+- etl_diagram.png: High-level ETL diagram
 
 ## Dependency
 - Python (==3.6.3)
