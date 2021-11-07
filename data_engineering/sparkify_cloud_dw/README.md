@@ -9,7 +9,7 @@ This data warehouse is built for analytics purpose to draw insights based on the
 
 ## Data Warehouse Design 
 The data warehouse consists of staging tables, dimension tables and a fact table. <br>
-In constructing tables, auto distribution style and sort keys are used to improve the query performance. 
+In constructing tables on Redshift, auto distribution style and sort keys are used to improve the query performance. 
 
 The star schema is used to design the data warehouse with the dimension and fact tables.
 
