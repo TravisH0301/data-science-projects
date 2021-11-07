@@ -1,15 +1,8 @@
 # Sparkify Cloud Data Warehouse ETL
 
 ## Purpose 
-This project extends from the 'Sparkify Data Warehouse ETL', where Cloud storage and database (S3 and Redshift) 
-are used instead of the local PostgreSQL database. 
-
-This project aims to build a cloud data warehouse on Redshift using the Sparkify\*'s song and user event data
-stored on the cloud storage, S3. <br>
-The data warehouse is built for analytics purpose. 
-
-This project extends from the 'Sparkify Data Warehouse ETL' where the process is migrated from the local 
-PostgreSQL to the AWS cloud services. 
+This project aims to build a cloud data warehouse on AWS Redshift using the Sparkify\*'s song and user event data pipelined from the clouse storage, AWS S3. <br>
+This data warehouse is built for analytics purpose to draw insights based on the user's song play activities.
 
 \*Sparkify is a fake music streaming service invented by Udacity.
 
