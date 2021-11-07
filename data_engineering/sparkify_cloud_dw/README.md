@@ -58,6 +58,8 @@ There are 5 files including this README text file in the repository.
 - sql_queries.py: Python script containing all SQL queries for the ETL process
 - create_tables.py: Python script to drop & create DB tables
 - etl.py: Python script to execute ETL queries
+- db_schema.png: Data warehouse schema image
+- etl_diagram: Diagram of high-level ETL process 
 
 ## Dependency
 - Python (==3.6.3)
