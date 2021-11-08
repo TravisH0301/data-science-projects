@@ -9,8 +9,12 @@ def drop_tables(cur, conn):
     """
     print('Dropping tables...')
     for query in drop_table_queries:
-        cur.execute(query)
-        conn.commit()
+        try:
+            cur.execute(query)
+            conn.commit()
+        except Exception as e:
+            print(e)
+            print(query)
     print('All tables have been dropped.')
 
 
@@ -20,8 +24,12 @@ def create_tables(cur, conn):
     """
     print('Creating tables...')
     for query in create_table_queries:
-        cur.execute(query)
-        conn.commit()
+        try:
+            cur.execute(query)
+            conn.commit()
+        except Exception as e:
+            print(e)
+            print(query)
     print('All tables have been created.')
 
 

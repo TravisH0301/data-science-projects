@@ -74,7 +74,7 @@ user_table_create = ("""CREATE TABLE IF NOT EXISTS users
     first_name VARCHAR NOT NULL, 
     last_name VARCHAR NOT NULL, 
     gender VARCHAR NOT NULL, 
-    level DECIMAL NOT NULL
+    level VARCHAR NOT NULL
 ) DISTSTYLE AUTO;
 """)
 
@@ -115,7 +115,7 @@ time_table_create = ("""CREATE TABLE IF NOT EXISTS time
 staging_events_copy = ("""
     COPY stg_events FROM 's3://udacity-dend/log_data/'
     credentials 'aws_iam_role={}'
-    format as json 'auto' region 'us-west-2';
+    format as json 's3://udacity-dend/log_json_path.json' region 'us-west-2';
 """).format(role_arn)
 
 staging_songs_copy = ("""
@@ -158,24 +158,24 @@ songplay_table_insert = ("""
 user_table_insert = ("""
     INSERT INTO users (user_id, first_name, last_name, gender, level)
     SELECT
-        userId,
+        DISTINCT userId,
         firstName,
         lastName,
         gender,
         level
     FROM stg_events
     WHERE
-        userID IS NOT NULL
+        page = 'NextSong'
+        AND userID IS NOT NULL
         AND firstName IS NOT NULL
         AND lastName IS NOT NULL
-        AND gender IS NOT NULL
-        AND level IS NOT NULL;
+        AND gender IS NOT NULL;
 """)
 
 song_table_insert = ("""
     INSERT INTO songs (song_id, title, artist_id, year, duration)
     SELECT
-        song_id,
+        DISTINCT song_id,
         title,
         artist_id,
         year,
@@ -191,7 +191,7 @@ song_table_insert = ("""
 artist_table_insert = ("""
     INSERT INTO artists (artist_id, name, location, latitude, longitude)
     SELECT
-        artist_id,
+        DISTINCT artist_id,
         artist_name,
         artist_location,
         artist_latitude,
@@ -205,7 +205,7 @@ artist_table_insert = ("""
 time_table_insert = ("""
     INSERT INTO time (start_time, hour, day, week, month, year, weekday)
     SELECT
-        sub.start_time,
+        DISTINCT sub.start_time,
         EXTRACT (HOUR FROM sub.start_time), 
         EXTRACT (DAY FROM sub.start_time),
         EXTRACT (WEEK FROM sub.start_time), 

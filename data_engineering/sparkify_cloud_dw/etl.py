@@ -10,8 +10,12 @@ def load_staging_tables(cur, conn):
     """
     print('Loading dataset into staging tables...')
     for i, query in enumerate(copy_table_queries):
-        cur.execute(query)
-        conn.commit()
+        try:
+            cur.execute(query)
+            conn.commit()
+        except Exception as e:
+            print(e)
+            print(query)
         print(f'{i+1}/{len(copy_table_queries)} queries completed.')
 
 
@@ -22,8 +26,12 @@ def insert_tables(cur, conn):
     """
     print('Populating tables...')
     for i, query in enumerate(insert_table_queries):
-        cur.execute(query)
-        conn.commit()
+        try:
+            cur.execute(query)
+            conn.commit()
+        except Exception as e:
+            print(e)
+            print(query)
         print(f'{i+1}/{len(insert_table_queries)} queries completed.')
 
 
