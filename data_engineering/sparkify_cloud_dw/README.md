@@ -4,7 +4,7 @@
 This project aims to build a cloud data warehouse on AWS Redshift using the Sparkify\*'s song and user event data pipelined from the clouse storage, AWS S3. <br>
 This data warehouse is built for analytics purpose to draw insights based on the user's song play activities.
 
-\*Sparkify is a fake music streaming service invented by Udacity.
+\*Sparkify is an artificial music streaming service invented by Udacity.
 
 
 ## Data Warehouse Design 
