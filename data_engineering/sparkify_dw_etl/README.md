@@ -4,7 +4,7 @@
 This project aims to create a data warehouse using ETL pipeline with the collection of song and user information from Sparkify*.<br>
 The data warehouse is designed for analytics purpose with the focus on query performance.
 
-*Sparkify is a fake music streaming service invented by Udacity.
+*Sparkify is an artificial music streaming service invented by Udacity.
 
 ## Database Design 
 This database consists of 5 tables in a star schema with 1 fact table and 4 dimension tables.
